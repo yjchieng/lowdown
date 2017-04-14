@@ -8,7 +8,7 @@ module Lowdown
   #
   class Notification
     # @!visibility private
-    APS_KEYS = %w( alert badge sound content-available category ).freeze
+    APS_KEYS = %w( alert badge sound content-available category mutable-content ).freeze
 
     @id_mutex = Mutex.new
     @id_counter = 0
